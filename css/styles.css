@@ -1,3 +1,7 @@
+/* estilos ára index.html*/
+
+
+
 body {
     margin: 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -82,4 +86,94 @@ footer {
     font-weight: lighter;
     margin-top: auto;
     padding: 10px 0px;
+}
+
+
+/*estilos para sobre.html*/
+
+#conteudo-empresa {
+    display: flex;
+}
+
+#conteudo-empresa-esquerda {
+    width: 50%;
+}
+
+#conteudo-empresa-direita {
+    width: 50%;
+}
+
+#conteudo-empresa-direita p {
+    padding-left: 25px;
+    text-align: justify;
+}
+
+#img-empresa {
+    width: 100%;
+    height: 100%;
+}
+
+#selo-melhores-empresas {
+    height: 30%;
+    margin-top: 35px;
+}
+
+/* Estilo para solucoes.html*/
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #22577a;
+    font-size: 28px;
+}
+
+.destaque-produtos {
+    padding: 0px 15px;
+    background-color: rgba(98, 171, 130, 255);
+    margin: 20px;
+}
+
+.destaque-produtos a {
+    text-decoration: none;
+    color: goldenrod;
+    font-size: 25px;
+}
+
+.destaque-produtos a:hover {
+    font-weight: bold;
+}
+
+/*Estilos para sucesso.html*/
+
+.detalhes-caso {
+    display: flex;
+    margin: 15px 0px;
+}
+
+.detalhes-caso img {
+    padding-right: 30px;
+}
+
+
+.detalhes-caso-texto {
+    text-align: start;
+}
+
+/* estilo do contato.html*/
+
+#frm-container {
+    display: flex;
+}
+
+#frm-labels {
+    background-color: #ebcd42;
+    width: 50%;
+    text-align: right;
+    padding-right: 15px;
+}
+
+#frm-fields {
+    background-color: #22577a;
+    width: 50%;
+    text-align: left;
+    padding-left: 15px;
 }
